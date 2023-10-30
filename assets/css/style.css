@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+
+  .nav { 
+    display: flex;
+    background-color: white;
+    color: pink;
+    padding: 20px;
+   
+  }
+
+  .menu {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+   
+  
+  }
+
+  .menu a {
+    font-size: 18px;
+    color: rgb(185, 74, 148);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+
+  }
+
+  .Main
+  {
+    display: flex;
+  height: 1200px;
+  flex-flow: wrap column; 
+  font-size: 27px;
+  margin: 0 auto;
+  }
+
+
+  .AboutMe {
+    color: rgb(241, 217, 217);
+    font-size: 27px;
+    background-image: url(../images/aboutmepghoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    margin-top: 20px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    color: rgb(185, 74, 148);
+  }
+
+  #email {
+    text-align: center;
+    color: rgb(185, 74, 148);
+  }
