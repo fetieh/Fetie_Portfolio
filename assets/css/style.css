@@ -22,16 +22,18 @@ html {
 }
 
 
-#AboutMe {
+.intro {
   display: flex;
-  flex-flow: wrap column; 
+  flex-flow: nowrap column; 
   margin: 0px 10%;     
+  align-content: center;
   background-image: url(../images/aboutmepghoto.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
   margin-top: 20px;
   height: 50vh;
+  padding: 50px;
 }
 /* Typography CSS */
 
@@ -57,14 +59,21 @@ h1 {
 }
 
 #AboutMe p {
-  background-color: rgba(255,255,255,0.8);
-  color: rgb(185, 74, 148);
+  
   border: 1px solid ;
-  font-size: 27px;
   position: relative;
   top: 100px;
   max-width: fit-content;
-  z-index: 100
+  z-index: 100;
+  padding:10px;
+}
+
+.intro p {
+  background-color: rgba(255,255,255,0.8);
+  color: rgb(185, 74, 148);
+  position: relative;
+  font-size: 18px;
+  top: 100px;
 }
 
 h2 {
@@ -91,6 +100,17 @@ form {
 #MyWorks a {
   text-decoration: none;
 }
+
+.footer {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color:  rgba(204, 178, 178, 0.8);
+  color: rgb(185, 74, 148);
+  max-height: 100px;
+}
+
 
 /* Grid CSS */
 
@@ -148,14 +168,62 @@ grid-template-areas: "xwebsite xwebsite"
 }
 
 .GridArea {
-  background-position: center;
+ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 margin: 5px;
-/* cursor: pointer; */
 display: grid;  
 align-content: end;
 align-items: end;
 }
 
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1000px) {
+.menu {
+  margin-left: auto;
+  justify-content: center;
+ }
+
+
+h1 {
+  font-size: 24px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .intro p {
+    
+    font-size: 11px; 
+  }
+
+ 
+  #MyWorks {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "xwebsite ywebsite"
+      "xwebsite ywebsite"
+      "xwebsite wwebsite"
+      "zwebsite awebsite"
+      "zwebsite awebsite";
+  }
+
+
+  #ContactMe {
+    
+    margin: 20px;
+  }
+}
+  
 
