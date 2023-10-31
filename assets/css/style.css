@@ -2,8 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
+/* Styling of Header */
 .nav { 
   display: flex;
   background-color: white;
@@ -17,11 +16,10 @@ html {
   display: flex;
   justify-content: flex-end;
   width: 95%;
- 
 
 }
 
-
+/* About Me Part */
 .intro {
   display: flex;
   flex-flow: nowrap column; 
@@ -54,7 +52,6 @@ h1 {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   padding: 10px;
-  
 
 }
 
@@ -82,8 +79,9 @@ h2 {
   height: 25px;
   color: rgb(185, 74, 148);
   font-size: 18px;
-  border-bottom: 5px solid rgb(185, 74, 148) 
-
+  border-bottom: 5px solid rgb(185, 74, 148); 
+  text-align: end;
+  
 }
 
 form {
@@ -121,9 +119,7 @@ margin: 0px 10%;
 display: grid;
 min-height: 500px;
 height: 100vh;
-text-align: center;
- gap: 10px;
- 
+gap: 10px;
 grid-template-columns: 50% 50% ;
 grid-template-rows: 25% 25% 25% 25%;
 grid-template-areas: "xwebsite xwebsite"
@@ -168,14 +164,16 @@ grid-template-areas: "xwebsite xwebsite"
 }
 
 .GridArea {
- background-position: center;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 margin: 5px;
+cursor: pointer;
 display: grid;  
 align-content: end;
 align-items: end;
 }
+
 
 
 
