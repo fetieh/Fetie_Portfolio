@@ -73,8 +73,25 @@ h2 {
   height: 25px;
   color: rgb(185, 74, 148);
   font-size: 18px;
-  border-bottom: 5px solid rgb(185, 74, 148) ;
+  border-bottom: 5px solid rgb(185, 74, 148) 
+
 }
+
+form {
+  color:rgb(185, 74, 148);
+  padding: 50px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0px 10%;  
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+
+}
+
+#MyWorks a {
+  text-decoration: none;
+}
+
 /* Grid CSS */
 
 
