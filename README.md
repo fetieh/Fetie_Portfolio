@@ -35,3 +35,7 @@ Contributions to this portfolio website are welcome. If you have ideas for furth
 ## License
 
 This project is open-source and available under the MIT License. You are free to use, modify, and distribute this code as per the license terms.
+
+## Tests 
+To test an HTML portfolio page, manually check its appearance, responsiveness, and links, validate HTML and CSS using online tools, and perform performance, accessibility, and functional testing. Additionally, review textual content, ensuring accuracy and effective communication of skills and projects.
+
